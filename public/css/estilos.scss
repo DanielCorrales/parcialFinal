@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400,600,700');
+
+$colorPrincipal: #221d53;
+$tipografia: Mukta Mahee;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p {
+    color: white;
+    font-family: $tipografia;
+}
+
+.contenedor {
+    background-color: $colorPrincipal;
+    height: 200px;
+    h1{
+        padding-top: 80px;
+        margin-left: 100px;
+    }
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+    margin-top: 50px;
+    .boton{
+        margin-right: 50px;
+        margin-left: 100px;
+    }
+    .botonDos{
+        margin-right: 50px;
+    }
+}
